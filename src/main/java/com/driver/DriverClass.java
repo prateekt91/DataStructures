@@ -2,7 +2,6 @@ package com.driver;
 
 import com.sorting.BubbleSort;
 
-import java.util.Arrays;
 
 /**
  * @author Prateek
