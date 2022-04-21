@@ -5,7 +5,7 @@ package com.sorting;
  */
 public class BubbleSort {
 
-    // takes array to swap and the indecis of the position to swap
+    // takes array to swap and the indices of the position to swap
     public static void swap(int [] array, int i, int j) {
          if(i == j) {
              return;

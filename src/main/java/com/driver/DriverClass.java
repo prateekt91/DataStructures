@@ -1,6 +1,6 @@
 package com.driver;
 
-import com.sorting.BubbleSort;
+import com.sorting.SelectionSort;
 
 
 /**
@@ -12,10 +12,11 @@ public class DriverClass {
 
         int[] array = {20,35,-15,7,55,1,-22};
 
-        BubbleSort bubbleSort = new BubbleSort();
+      //  BubbleSort bubbleSort = new BubbleSort();
+        SelectionSort selectionSort = new SelectionSort();
+        //int [] sortedArray = bubbleSort.sort(array);
 
-        int [] sortedArray = bubbleSort.sort(array);
-
+        int [] sortedArray = selectionSort.sort(array);
         for(int i = 0; i< sortedArray.length ; i++) System.out.print(sortedArray[i] + " ");
 
 
